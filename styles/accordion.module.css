@@ -1,0 +1,43 @@
+.accordion {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item {
+  border: 1px solid #2a2a3c;
+  background-color: #13141f;
+  margin-bottom: 0.5rem;
+}
+
+.trigger {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.trigger:hover {
+  background-color: #1a1b26;
+}
+
+.content {
+  padding: 0 1rem 1rem;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.icon {
+  transition: transform 0.2s;
+}
+
+.iconOpen {
+  transform: rotate(180deg);
+}
+

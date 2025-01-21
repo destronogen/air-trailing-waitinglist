@@ -1,0 +1,86 @@
+.container {
+  min-height: 100vh;
+  background-color: #0a0b14;
+  color: white;
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.courseTitle {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 1rem 0;
+}
+
+.joinText {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.bonus {
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
+.rightColumn {
+  padding: 2rem;
+}
+
+.masteryTitle {
+  color: #38bdf8;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.waitlistTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  color: #cccccc;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .courseTitle {
+    font-size: 2.5rem;
+  }
+
+  .waitlistTitle {
+    font-size: 2rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+
